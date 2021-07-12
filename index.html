@@ -39,6 +39,12 @@
               max-width: 100%!important;
             }
           }
+
+          @media screen and (max-width: 600px) {
+            .icon {
+              width: 15px;
+            }
+          }
     </style>
   </head>
   <body style="padding:0; margin:0; background-color: #ffffff;">
@@ -59,7 +65,7 @@
         <!-- INFORMATION -->
         <tr>
           <td style="padding:0;">
-            <table width="100%" style="border-spacing:0;padding: 20px 0;">
+            <table width="100%" style="border-spacing:0;">
               <tr>
                 <!-- SPACE LEFT -->
                 <td width="45" style="padding:0;"></td>
@@ -67,9 +73,13 @@
                 <td style="padding:0;">
                   <table width="100%" style="border-spacing:0;">
                     <tr>
+											<td height="15"></td>
+											<!-- </td> -->
+										</tr>
+                    <tr>
                       <td class="good" style="padding:0;color: #00AF41; font-size: 20px; font-weight: bold; line-height: 26px; text-align: left;">
                         Chúc bạn ngon miệng! 
-                    </td>
+                      </td>
                     </tr>
                     <tr>
                       <td height="15" style="padding:0;"></td>
@@ -90,6 +100,13 @@
                             </td>
                           </tr>
                         </table>
+                        <table border="0" cellpadding="0" cellspacing="0" width="100%">
+													<tbody>
+													<tr>
+														<td height="12"></td>
+													</tr>
+													</tbody>
+												</table>
                       </td>
                     </tr>
                   </table>
@@ -106,9 +123,19 @@
             <table width="100%" style="border-spacing:0;background-color: #F4F4F4;">
               <tr>
                 <!-- SPACE LEFT -->
-                <!-- <td valign="top" width="45px"></td> -->
+                <td valign="top" width="45px"></td>
+
                 <!-- DATA -->
-                <td class="two-column" style="padding:0;text-align: center;padding: 25px 45px 40px 45px;" align="center" valign="top">
+                <td class="two-column" style="padding:0;text-align: center;" align="center" valign="top">
+                  <!-- SPACE TOP -->
+                  <table border="0" cellpadding="0" cellspacing="0" width="100%">
+										<tbody>
+										<tr>
+											<td align="left" height="20"></td>
+										</tr>
+										</tbody>
+									</table>
+
                   <!-- COL LEFT -->
                   <table class="column left" style="border-spacing:0;max-width: 225px; display: inline-block; vertical-align: top; width: 100%;">
                     <tr>
@@ -193,7 +220,7 @@
                     </tr>
                   </table>
                   <!-- COL RIGHT -->
-                  <table class="column right" style="border-spacing:0;max-width: 278px; display: inline-block; vertical-align: top; width: 100%;">
+                  <table class="column right" style="border-spacing:0;max-width: 274px; display: inline-block; vertical-align: top; width: 100%;">
                     <tr>
                       <td style="padding:0;">
                         <table class="content" width="100%" style="border-spacing:0;">
@@ -210,34 +237,64 @@
                           <!-- BOOKING DETAILS CONTENT -->
                           <tr>
                             <td valign="top" style="padding:0;">
-                              <table width="100%" style="border-spacing:0;border: 1px solid #dddddd; background: #ffffff; padding: 15px;">
+                              <table width="100%" style="border-spacing:0;border: 1px solid #dddddd; background: #ffffff;">
+                                <tr>
+                                  <td align="left" height="10"></td>
+                                  <td colspan="2" align="left" height="10"></td>
+                                  <td align="left" height="10"></td>
+                                </tr>
                                 <!-- PAYMENT METHOD -->
                                 <tr>
+                                  <td align="left" height="5"></td>
                                   <td style="padding:0;font-size: 11px; line-height: 18px;" align="left" height="5">
                                     Bạn trả bằng:
                                   <br>
                                     <span style="font-weight: bold; color: #000000;">Visa &nbsp;&nbsp;8959</span>
                                   </td>
+                                  <td align="left" height="5"></td>
+                                </tr>
+                                <tr>
+                                  <td align="left" height="5"></td>
+                                  <td colspan="2" align="left" height="5"></td>
+                                  <td align="left" height="5"></td>
                                 </tr>
                                 <!-- Dashed Line -->
                                 <tr>
-                                  <td colspan="2" style="padding:0;border-top: 1px dashed #9e9e9e;" align="center" height="3"></td>
+                                  <td align="left" height="3"></td>
+                                  <td colspan="2" style="padding:0;border-top:1px dashed rgb(158,158,158)" align="left" height="3"></td>
+                                  <td align="left" height="3"></td>
                                 </tr>
+                                <!-- <tr>
+                                  <td colspan="2" style="padding:0;border-top: 1px dashed #9e9e9e;" align="center" height="3"></td>
+                                </tr> -->
                                 <!-- Detailt & Amount -->
                                 <tr>
-                                  <td align="left" width="69%" style="padding:0;">
+                                  <td align="left" width="15"></td>
+                                  <td align="left" width="164" style="padding:0;">
                                     <span style="font-size: 11px; color: #9e9e9e;line-height: 21px;">Chi tiết</span>
                                   </td>
-                                  <td align="left" width="31%" style="padding:0;">
+                                  <td align="left" width="80" style="padding:0;">
                                     <span style="font-size: 11px; color: #9e9e9e; line-height: 28px;">&nbsp;&nbsp;Số lượng:</span>
                                   </td>
+                                  <td align="left" width="15"></td>
+                                </tr>
+                                <tr>
+                                  <td align="left" height="3"></td>
+                                  <td colspan="2" align="left" height="3"></td>
+                                  <td align="left" height="3"></td>
                                 </tr>
                                 <!-- Dashed Line -->
                                 <tr>
-                                  <td colspan="2" style="padding:0;border-top: 1px dashed #9e9e9e;" align="left" height="3"></td>
+                                  <td align="left" height="5"></td>
+                                  <td colspan="2" style="border-top:1px dashed rgb(158,158,158)" align="left" height="5"></td>
+                                  <td align="left" height="5"></td>
                                 </tr>
+                                <!-- <tr>
+                                  <td colspan="2" style="padding:0;border-top: 1px dashed #9e9e9e;" align="left" height="3"></td>
+                                </tr> -->
                                 <!-- List -->
                                 <tr>
+                                  <td align="left" width="15"></td> 
                                   <td align="left" style="padding:0;font-weight: normal;">
                                     <span style="font-size: 11px; line-height: 18px;">1x&nbsp;&nbsp;</span>
                                     <span style="font-size: 11px; font-weight: bold;">Cơm Cuộn Cá Hồi Nướng</span>
@@ -245,8 +302,10 @@
                                   <td align="left" style="padding:0;font-weight: normal;">
                                     <span style="font-size: 11px; line-height: 18px;">&nbsp;&nbsp;VND 80000</span>
                                   </td>
+                                  <td align="left" width="15"></td>
                                 </tr>
                                 <tr>
+                                  <td align="left" width="15"></td>
                                   <td align="left" style="padding:0;font-weight: normal;">
                                     <span style="font-size: 11px; line-height: 18px;">1x&nbsp;&nbsp;</span>
                                     <span style="font-size: 11px; font-weight: bold;">Cơm Cuộn Tôm Tempura Sốt Cay</span>
@@ -254,8 +313,10 @@
                                   <td align="left" style="padding:0;font-weight: normal;">
                                     <span style="font-size: 11px; line-height: 18px;">&nbsp;&nbsp;VND 82000</span>
                                   </td>
+                                  <td align="left" width="15"></td>
                                 </tr>
                                 <tr>
+                                  <td align="left" width="15"></td>
                                   <td align="left" style="padding:0;font-weight: normal;">
                                     <span style="font-size: 11px; line-height: 18px;">1x&nbsp;&nbsp;</span>
                                     <span style="font-size: 11px; font-weight: bold;">Ramen Thịt Băm</span>
@@ -263,8 +324,10 @@
                                   <td align="left" style="padding:0;font-weight: normal;">
                                     <span style="font-size: 11px; line-height: 18px;">&nbsp;&nbsp;VND 65000</span>
                                   </td>
+                                  <td align="left" width="15"></td>
                                 </tr>
                                 <tr>
+                                  <td align="left" width="15"></td>
                                   <td align="left" style="padding:0;font-weight: normal;">
                                     <span style="font-size: 11px; line-height: 18px;">1x&nbsp;&nbsp;</span>
                                     <span style="font-size: 11px; font-weight: bold;">TEMPURA Thập Cẩm</span>
@@ -272,6 +335,7 @@
                                   <td align="left" style="padding:0;font-weight: normal;">
                                     <span style="font-size: 11px; line-height: 18px;">&nbsp;&nbsp;VND 60000</span>
                                   </td>
+                                  <td align="left" width="15"></td>
                                 </tr>
                                 <!-- EMPTY LINE -->
                                 <tr>
@@ -282,36 +346,44 @@
                                 </tr>
                                 <!-- Costs -->
                                 <tr>
+                                  <td align="left" width="15"></td>
                                   <td align="left" style="padding:0;font-weight: normal;">
                                     <span style="font-size: 11px; color: #000000; line-height: 18px;">Tổng tạm tính</span>
                                   </td>
                                   <td align="left" style="padding:0;font-weight: normal;">
                                     <span style="font-size: 11px; color: #000000; line-height: 18px;">&nbsp;&nbsp;VND 287000</span>
                                   </td>
+                                  <td align="left" width="15"></td>
                                 </tr>
                                 <tr>
+                                  <td align="left" width="15"></td>
                                   <td align="left" style="padding:0;font-weight: normal;">
                                     <span style="font-size: 11px; color: #000000; line-height: 18px;">Cước phí giao hàng</span>
                                   </td>
                                   <td align="left" style="padding:0;font-weight: normal;">
                                     <span style="font-size: 11px; color: #000000; line-height: 18px;">&nbsp;&nbsp;VND 19000</span>
                                   </td>
+                                  <td align="left" width="15"></td>
                                 </tr>
                                 <tr>
+                                  <td align="left" width="15"></td>
                                   <td align="left" style="padding:0;font-weight: normal;">
                                     <span style="font-size: 11px; color: #000000; line-height: 18px;">Phí dịch vụ</span>
                                   </td>
                                   <td align="left" style="padding:0;font-weight: normal;">
                                     <span style="font-size: 11px; color: #000000; line-height: 18px;">&nbsp;&nbsp;VND 60000</span>
                                   </td>
+                                  <td align="left" width="15"></td>
                                 </tr>
                                 <tr>
+                                  <td align="left" width="15"></td>
                                   <td align="left" style="padding:0;font-weight: normal;">
                                     <span style="font-size: 11px; color: #000000; line-height: 18px;">Khuyến mại (GF50K)</span>
                                   </td>
                                   <td align="left" style="padding:0;font-weight: normal;">
                                     <span style="font-size: 11px; color: #000000; line-height: 18px;">-&nbsp;&nbsp;VND 50000</span>
                                   </td>
+                                  <td align="left" width="15"></td>
                                 </tr>
                                 <tr>
                                   <td align="left" height="10" style="padding:0;"></td>
@@ -320,16 +392,23 @@
                                 </tr>
                                 <!-- Dashed Line -->
                                 <tr>
-                                  <td colspan="2" style="padding:0;border-top: 1px dashed #9e9e9e;" align="left" height="3"></td>
+                                  <td align="left" height="10"></td>
+                                  <td colspan="2" style="border-top:1px dashed rgb(158,158,158)" align="left" height="10"></td>
+                                  <td align="left" height="10"></td>
                                 </tr>
+                                <!-- <tr>
+                                  <td colspan="2" style="padding:0;border-top: 1px dashed #9e9e9e;" align="left" height="3"></td>
+                                </tr> -->
                                 <!-- Sum -->
                                 <tr>
+                                  <td align="left" height="10"></td>
                                   <td align="right" style="padding:0;">
-                                    <span style="font-size: 12px; font-weight: bolder; color: #000000; line-height: 28px;">BẠN TRẢ&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                                    <span style="font-size: 11px; font-weight: bolder; color: #000000; line-height: 28px;">BẠN TRẢ&nbsp;&nbsp;&nbsp;&nbsp;</span>
                                   </td>
                                   <td align="left" style="padding:0;">
-                                    <span style="font-size: 12px; font-weight: bolder; color: #000000; line-height: 28px;">&nbsp;&nbsp;VND 262000</span>
+                                    <span style="font-size: 11px; font-weight: bolder; color: #000000; line-height: 28px;">&nbsp;&nbsp;VND 262000</span>
                                   </td>
+                                  <td align="left" height="10"></td>
                                 </tr>
                               </table>
                             </td>
@@ -338,9 +417,19 @@
                       </td>
                     </tr>
                   </table>
+
+                  <!-- SPACE BOTTOM -->
+                  <table border="0" cellpadding="0" cellspacing="0" width="100%">
+										<tbody>
+										<tr>
+											<td height="20"></td>
+										</tr>
+										</tbody>
+									</table>
                 </td>
+
                 <!-- SPACE RIGHT -->
-                <!-- <td valign="top" width="45"></td> -->
+                <td valign="top" width="45"></td>
               </tr>
             </table>
           </td>
@@ -357,14 +446,23 @@
             </table>
           </td>
         </tr>
-        <!-- <tr>
-        <td height="20"></td>
-      </tr> -->
+        <tr>
+          <td>
+            <table border="0" cellpadding="0" cellspacing="0" width="100%">
+							<tbody>
+							<tr>
+								<td height="20"></td>
+							</tr>
+							</tbody>
+						</table>
+          </td>
+        </tr>
         <!-- RECEIPT MANAGEMENT -->
         <tr>
           <td style="padding:0;">
-            <table style="border-spacing:0;border-bottom: 1px solid #cbcbcb; padding: 30px 45px;" align="center" bgcolor="#ffffff" width="100%">
+            <table style="border-spacing:0;border-bottom: 1px solid #cbcbcb;" align="center" bgcolor="#ffffff" width="100%">
               <tr>
+                <td valign="top" width="45"></td>
                 <td style="padding:0;font-size: 11px;" valign="top">
                   <table width="100%" style="border-spacing:0;">
                     <tr>
@@ -388,17 +486,35 @@
                         </table>
                       </td>
                     </tr>
+                    <tr>
+											<td height="20"></td>
+										</tr>
                   </table>
                 </td>
+                <td valign="top" width="45"></td>
               </tr>
             </table>
           </td>
         </tr>
+
         <!-- FOOTER -->
         <tr>
-          <td style="padding:0;">
-            <table align="center" bgcolor="#ffffff" width="100%" style="border-spacing:0;padding: 20px 45px;">
+          <td>
+            <table border="0" cellpadding="0" cellspacing="0" width="100%">
+              <tbody>
               <tr>
+                <td height="20"></td>
+              </tr>
+              </tbody>
+            </table>
+          </td>
+        </tr>
+
+        <tr>
+          <td style="padding:0;">
+            <table align="center" bgcolor="#ffffff" width="100%" style="border-spacing:0;">
+              <tr>
+                <td valgin="top" width="45"></td>
                 <td style="padding:0;font-size: 11px;" valign="top">
                   <table width="100%" style="border-spacing:0;">
                     <tr>
@@ -406,7 +522,7 @@
                         <table border="0" cellpadding="0" cellspacing="0" width="100%" style="border-spacing:0;">
                           <tr>
                             <!-- Helps -->
-                            <td style="padding:0;color:rg#666666; padding-right:10%;" align="left" valign="top" width="55%">
+                            <td style="padding:0;color:#666666; padding-right:5%;" align="left" valign="top" width="55%">
                               <span style="color:rgb(102,102,102)">
                                 <a href="#" style="font-size:10px;line-height:12px;font-weight:bold;color:#666666;text-decoration:underline">Help Centre</a>
                               </span>
@@ -418,7 +534,8 @@
                               </span>
                               <br>
                               <br>
-                              <span style="font-size:10px;font-weight:normal;line-height:16px">Copyright @ 2021 GrabTaxi Holdings Pte. Ltd.<br>
+                              <span style="font-size:10px;font-weight:normal;line-height:16px">
+                                Copyright @ 2021 GrabTaxi Holdings Pte. Ltd.<br>
                                 All rights reserved.<br>
                                 <a href="#" style="color:#666666;text-decoration:underline;font-style:italic;line-height:21px"></a>
                               </span>
@@ -427,16 +544,16 @@
                             <td style="padding:0;color:#666666;" align="left" valign="top" width="35%">
                               <span style="font-size:10px;line-height:12px;font-weight:bold">
                                 Giữ liên lạc với chúng tôi nhé
-                            </span>
+                              </span>
                               <br>
                               <br>
                               <a href="#"><img class="icon" src="https://grabtaxi-marketing.s3.amazonaws.com/email/img/icon-fb.png" width="30"></a>
-                              &nbsp;&nbsp;
-                            <a href="#"><img class="icon" src="https://grabtaxi-marketing.s3.amazonaws.com/email/img/icon-twitter.png" width="30"></a>
-                              &nbsp;&nbsp;
-                            <a href="#"><img class="icon" src="https://grabtaxi-marketing.s3.amazonaws.com/email/img/icon-instagram.png" width="30"></a>
-                              &nbsp;&nbsp;
-                            <a href="#"><img class="icon" src="https://grabtaxi-marketing.s3.amazonaws.com/email/img/icon-linkedin.png" width="30"></a>
+                              &nbsp;
+                              <a href="#"><img class="icon" src="https://grabtaxi-marketing.s3.amazonaws.com/email/img/icon-twitter.png" width="30"></a>
+                              &nbsp;
+                              <a href="#"><img class="icon" src="https://grabtaxi-marketing.s3.amazonaws.com/email/img/icon-instagram.png" width="30"></a>
+                              &nbsp;
+                              <a href="#"><img class="icon" src="https://grabtaxi-marketing.s3.amazonaws.com/email/img/icon-linkedin.png" width="30"></a>
                               <br>
                               <br>
                             </td>
@@ -444,8 +561,12 @@
                         </table>
                       </td>
                     </tr>
+                    <tr>
+                      <td height="30"></td>
+                    </tr>
                   </table>
                 </td>
+                <td valgin="top" width="45"></td>
               </tr>
             </table>
           </td>
